@@ -1,9 +1,13 @@
+
 <p align="center">
-  <img src="guides/images/aurora-fullsize-logo.svg" width="400" alt="Aurora">
+    <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./guides/images/aurora-transparent-logo.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./guides/images/aurora-logo.svg" />
+    <img src="./guides/images/aurora-logo.svg" height="200" alt="Aurora logo" />
+    </picture>
 </p>
 
-# Aurora
-
+# Aurora 
 Aurora is a low-code toolset for Elixir applications that simplifies common development tasks through a set of specialized modules.
 
 ## Core Tools
