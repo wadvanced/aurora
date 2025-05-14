@@ -26,8 +26,7 @@ defmodule Aurora.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:aurora_ctx, "~> 0.1"},
-      {:aurora_uix, "~> 0.1", repo: "local"},
+      {:aurora_ctx, "~> 0.1.2"},
 
       ## Dev only dependencies
       {:ex_doc, "~> 0.38", only: :dev, runtime: false}

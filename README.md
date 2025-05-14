@@ -1,9 +1,8 @@
-
 <p align="center">
     <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./guides/images/aurora-transparent-logo.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./guides/images/aurora-logo.svg" />
-    <img src="./guides/images/aurora-logo.svg" height="200" alt="Aurora logo" />
+    <source media="(prefers-color-scheme: light)" srcset="./guides/images/aurora-transparent-logo.svg" />
+    <img src="./guides/images/aurora-transparent-logo.svg" height="200" alt="Aurora logo" />
     </picture>
 </p>
 
@@ -12,7 +11,7 @@ Aurora is a low-code toolset for Elixir applications that simplifies common deve
 
 ## Core Tools
 
-- **Ctx**: Streamlines schema registration within context modules
+- **[Ctx](https://hexdocs.pm/aurora_ctx)**: Streamlines schema registration within context modules
 - **Uix**: Enables rapid UI development with low-code approaches
 - **Menux**: Provides easy menu configuration and management
 - **Grantx**: Implements fine-grained permission control
@@ -32,7 +31,7 @@ end
 
 ## Usage
 
-### Ctx
+### [Ctx](https://hexdocs.pm/aurora_ctx)
 Use Ctx to easily define and manage your context schemas:
 ```elixir
 defmodule MyApp.Accounts do
@@ -98,6 +97,10 @@ Manage permissions with precision:
 ```elixir
 # Example coming soon
 ```
+
+## License
+
+Aurora is released under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Documentation
 
