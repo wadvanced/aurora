@@ -26,8 +26,7 @@ defmodule Aurora.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:aurora_ctx, "~> 0.1"},
-      {:aurora_uix, "~> 0.1", repo: "local"},
+      {:aurora_ctx, "~> 0.1.2"},
 
       ## Dev only dependencies
       {:ex_doc, "~> 0.38", only: :dev, runtime: false}
@@ -42,7 +41,7 @@ defmodule Aurora.MixProject do
         "guides/overview.md"
       ],
       groups_for_extras: [
-        "Guides": ~r/guides\/[^\/]+\.md/
+        Guides: ~r/guides\/[^\/]+\.md/
       ],
       groups_for_modules: [
         "Context Generation": [
