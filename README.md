@@ -1,6 +1,8 @@
 <p align="center">
     <picture>
-        <img src="./guides/images/aurora-transparent-logo.svg" height="200" alt="Aurora logo" />
+    <source media="(prefers-color-scheme: dark)" srcset="./guides/images/aurora-transparent-logo.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./guides/images/aurora-transparent-logo.svg" />
+    <img src="./guides/images/aurora-transparent-logo.svg" height="200" alt="Aurora logo" />
     </picture>
 </p>
 
